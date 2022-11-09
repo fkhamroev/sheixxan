@@ -1,0 +1,145 @@
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.counter__value {
+    color: #000000;
+}
+.table-add__chair {
+    display: block;
+}
+.about .about__slider img:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+
+	.gallery .swiper img {
+		min-height:unset;
+	}
+
+	.s-events .map-grid {
+		grid-template-columns: unset !important;
+		display: flex !important;
+    	grid-template-columns: unset;
+    	gap: unset;
+	}
+
+	.s-events .map-grid .show {
+		background: #EADBC2;
+		border: 2px solid var(--color);
+	}
+	
+	.y-order__table > div:not(:last-child) {
+		overflow: hidden;
+	}
+
+	h2, .h2 {
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+	}
+
+	.service h5 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+	}
+
+	.afandi__text h2, .s-contacts h2 {
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+	}
+
+    .page-footer__address h3 {
+    font-size: 26px;
+    text-align: center;
+	}
+
+    .page-footer__address a:not(.page-footer__how) {
+	justify-content: center
+	}
+
+    .s-contacts .page-footer__how {
+    margin: 0 auto;
+	}
+
+	.program__title {
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	.p-about__pluses h2 {
+		font-size: 25px;
+		line-height: 36px;
+	}
+
+}
+
+.y-order__table > div {
+
+font-size: 20px;
+
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+}
+
+
+@media screen and (max-width: 991px) {
+    .about {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .screen__text .svg-text {
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .service {
+        padding-top: 69px;
+    }
+    .service__row  {
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+	.partners__items-grid {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+.partners__items-grid img {
+    max-height: 100%;
+}
+
+.input input::placeholder, .input textarea::placeholder {
+	text-align: left;
+}
+
+.table-chair__item.busy {
+    background: #ABABAB;
+    border-color: #737373;
+}
+
+
